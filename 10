@@ -1,0 +1,152 @@
+#include <stdio.h>
+int main()
+{
+	/*
+	int i = 0;
+	
+	while (i< 10)
+	{
+		if (i == 5)
+		{
+			i++;
+			continue;
+		}
+		printf("i의값: %d\n",i);
+		i++;
+	}
+	*/
+	/*
+	int n;
+	int i = 1;
+	scanf("%d",&n);
+	while(n > 0)
+	{
+		printf("%d",i);
+		i *= -1;
+		n--;
+	}
+	*/
+	/*
+	int n;
+	int i;
+	scanf("%d",&n);
+	while(n > 0)
+	{
+		printf("%d ",i % 2);
+		n--;
+		i++;
+	}	
+	*/
+	/*
+	int n = 1;
+	int m = 1;
+	int i = 1;
+	scanf("%d",&n);
+	while(n > 0)
+	{
+		printf("%d ",m * i);
+		n--;
+		m++;
+		i *= -1;
+		
+	}
+	*/
+	/*
+	int n;
+	n = 2;
+	switch(3)
+	{
+		case 0:
+			printf("영입니다.");
+			break;
+		case 1:
+			printf("일입니다.");
+			break;
+		case 2:
+			printf("이입니다.");
+			break;
+		case 3:
+			printf("삼입니다.");
+			break;
+		
+	 
+	}
+	*/
+	/*
+	int n;
+	scanf("%d",&n);
+	switch(n / 10)
+	{
+		case 0:
+			printf("유소년");
+			break;
+		case 1:
+			printf("청소년");
+			break;
+		case 2:
+			printf("청년");
+			break;
+		case 3:
+			printf("청년");
+			break; 
+		case 4:
+			printf("중년"); 
+			break;
+		case 5:
+			printf("중년");
+			break;
+		case 6:
+			printf("장년");
+			break;
+		case 7:
+			printf("노년");
+			break; 
+		case 8:
+			printf("노년");
+			break;
+		case 9:
+			printf("도전 백세");
+			break;
+		default:
+			printf("성공 백세") ;
+			break;
+	}	
+	*/
+	/*
+	int n;
+	scanf("%d",&n);
+	if(n == 0)
+	{
+		printf("0입니다");
+		
+	} 
+	else if(n%2 == 0 )
+	{
+		printf("짝수");
+	}
+	else
+	{
+		printf("홀수");
+	}
+	*/
+	int n;
+	int a;
+	int mini = 100;
+	int max;
+	int m;
+	scanf("%d",&n);	
+	while(0 < n)
+	{	
+		scanf("%d",m);
+		if(m < mini)
+		{
+			mini = m
+		}
+		if()
+		n--
+	}
+	
+	
+	
+	return 0;
+}
